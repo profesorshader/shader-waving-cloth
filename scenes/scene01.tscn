@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://dqlpkfsgufwch"]
+
+[ext_resource type="Material" uid="uid://dbnf6i8a4yblk" path="res://materials/cloth_wave_01.tres" id="1_yf216"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_3kl8y"]
+subdivide_width = 50
+subdivide_depth = 50
+
+[node name="Node3D" type="Node3D" unique_id=1115256091]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=815062165]
+material_override = ExtResource("1_yf216")
+mesh = SubResource("PlaneMesh_3kl8y")

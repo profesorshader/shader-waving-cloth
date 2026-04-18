@@ -1,0 +1,19 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://bthi4kud66htw"]
+
+[ext_resource type="Material" uid="uid://oc0x54ercab5" path="res://materials/cloth_wave_03_outline.tres" id="1_lvso0"]
+[ext_resource type="Shader" uid="uid://cygmwgqb22hu1" path="res://shaders/cloth_wave_03.gdshader" id="2_ukl2v"]
+[ext_resource type="Texture2D" uid="uid://b78iyjww8hwj1" path="res://textures/skirt.png" id="3_bk86u"]
+
+[resource]
+render_priority = 0
+next_pass = ExtResource("1_lvso0")
+shader = ExtResource("2_ukl2v")
+shader_parameter/amplitude_u = 0.05
+shader_parameter/frequency_u = 62.831852
+shader_parameter/speed_u = -5.0
+shader_parameter/amplitude_v = 0.0
+shader_parameter/frequency_v = 10.0
+shader_parameter/speed_v = 2.0
+shader_parameter/albedo_tex = ExtResource("3_bk86u")
+shader_parameter/tint = Color(0.7224446, 0.7558061, 1, 1)
+shader_parameter/shade_levels = 3.0

@@ -1,0 +1,9 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://de4d1edlod7bj"]
+
+[ext_resource type="Shader" uid="uid://bekvefmomkltw" path="res://shaders/inverted_hull.gdshader" id="1_joqdj"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_joqdj")
+shader_parameter/weight = 0.001
+shader_parameter/color = Color(0, 0, 0, 1)

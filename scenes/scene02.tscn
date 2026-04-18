@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://67psodde5yas"]
+
+[ext_resource type="PackedScene" uid="uid://53i7plgsrvq6" path="res://models/tube.glb" id="1_gjdgc"]
+[ext_resource type="Material" uid="uid://cnjp3l2rnjva3" path="res://materials/cloth_wave_02.tres" id="2_gjdgc"]
+
+[node name="Node3D" type="Node3D" unique_id=200904910]
+
+[node name="tube" parent="." unique_id=1466786157 instance=ExtResource("1_gjdgc")]
+
+[node name="Cylinder" parent="tube" index="0" unique_id=340790818]
+material_override = ExtResource("2_gjdgc")
+
+[editable path="tube"]

@@ -1,0 +1,11 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://cqkaumue7o2lv"]
+
+[ext_resource type="Material" uid="uid://de4d1edlod7bj" path="res://materials2/outline.tres" id="1_4f36r"]
+[ext_resource type="Shader" uid="uid://bhlkoixa7qyqj" path="res://shaders/simple_toon_01.gdshader" id="2_twt7j"]
+
+[resource]
+render_priority = 0
+next_pass = ExtResource("1_4f36r")
+shader = ExtResource("2_twt7j")
+shader_parameter/tint = Color(0.08873565, 0.0034644576, 0.1664601, 1)
+shader_parameter/shade_levels = 2.0

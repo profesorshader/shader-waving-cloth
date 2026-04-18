@@ -1,0 +1,13 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://dbnf6i8a4yblk"]
+
+[ext_resource type="Shader" uid="uid://bm1qpfy2h2l00" path="res://shaders/cloth_wave_01.gdshader" id="1_iybx4"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_iybx4")
+shader_parameter/amplitude_u = 0.05
+shader_parameter/frequency_u = 20.0
+shader_parameter/speed_u = 5.0
+shader_parameter/amplitude_v = 0.1
+shader_parameter/frequency_v = 10.0
+shader_parameter/speed_v = 2.0
